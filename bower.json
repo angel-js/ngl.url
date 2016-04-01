@@ -1,0 +1,8 @@
+{
+  "name": "ngl.url",
+  "description": "URL-related helpers for Angular 1.x",
+  "license": "MIT",
+  "dependencies": {
+    "ngl.fp": "^0.5.1"
+  }
+}

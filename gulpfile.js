@@ -26,7 +26,7 @@ gulp.task('lint', ['clean'], function () {
 gulp.task('test', ['lint']);
 
 gulp.task('scripts', ['test'], function () {
-  var TARGET_NAME = 'script';
+  var TARGET_NAME = 'ngl.url';
 
   return gulp.src('./src/**/*.js')
     .pipe(sourcemaps.init())

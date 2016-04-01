@@ -3,6 +3,24 @@ ngl.url
 
 URL-related helpers for Angular 1.x
 
+Install
+-------
+
+    bower install --save ngl.url
+
+Include the sources
+
+```html
+<script src="bower_components/ngl.url/dist/ngl.fp.min.js"></script>
+<script src="bower_components/ngl.url/dist/ngl.url.min.js"></script>
+```
+
+Add `ngl.url` to your app dependencies
+
+```js
+angular.module('app', [ 'ngl.url' ]);
+```
+
 API
 ---
 
