@@ -1,0 +1,7 @@
+{
+  "extends": "eslint:recommended",
+  "environments": {},
+  "globals": {
+    "angular": true
+  }
+}
