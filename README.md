@@ -26,18 +26,18 @@ angular.module('app', [ 'ngl.url' ]);
 API
 ---
 
-### nglInterpolate(template, params)
+### `nglInterpolate(template: string, params: object) -> string`
 
-Replace all `:`-prefixed attributes found in `template` matching `param` keys
+Replace all `:`-prefixed attributes found in `template` matching `params` keys
 with its related `param` values
 
 ```js
 nglInterpolate('/foo/:id', { id: 123 }); // '/foo/123'
 ```
 
-### nglQueryString(object)
+### `nglQueryString(params: object) -> string`
 
-Converts a simple object to a query string
+Builds a query string from the provided object
 
 ```js
 nglQueryString({ foo: 123, bar: 'abc' }); // '?foo=123&bar=abc'
