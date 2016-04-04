@@ -3,6 +3,7 @@
   "description": "URL-related helpers for Angular 1.x",
   "license": "MIT",
   "dependencies": {
+    "angular": "1.*",
     "ngl.fp": "^0.5.1"
   }
 }
