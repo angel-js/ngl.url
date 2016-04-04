@@ -11,7 +11,7 @@ Install
 Include the sources
 
 ```html
-<script src="bower_components/ngl.url/dist/ngl.fp.min.js"></script>
+<script src="bower_components/ngl.fp/dist/ngl.fp.min.js"></script>
 <script src="bower_components/ngl.url/dist/ngl.url.min.js"></script>
 ```
 
