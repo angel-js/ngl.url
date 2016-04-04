@@ -4,6 +4,6 @@
   "license": "MIT",
   "dependencies": {
     "angular": "1.*",
-    "ngl.fp": "^0.5.4"
+    "ngl.fp": "^0.6.0"
   }
 }
