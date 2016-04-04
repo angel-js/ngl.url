@@ -8,12 +8,14 @@ Install
 
     bower install --save ngl.url
 
-Include the sources
+### Include the sources
 
 ```html
 <script src="bower_components/ngl.fp/dist/ngl.fp.min.js"></script>
 <script src="bower_components/ngl.url/dist/ngl.url.min.js"></script>
 ```
+
+### Load the angular module
 
 Add `ngl.url` to your app dependencies
 
